@@ -1,0 +1,12 @@
+{% extends "master.html" %}
+
+{% block content %}
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Registrace</button>
+        </form>
+        <small>
+            Vytvoř účet <a href="{% url 'login' %}">Registrace</a>
+        </small>
+{% endblock content %}

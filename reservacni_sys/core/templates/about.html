@@ -1,0 +1,30 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block title %}
+O stránce
+{% endblock %}
+
+
+{% block content %}
+<div class="about1">
+    <h1>O nás</h1>
+    <p>Helpdesk je systém určený technikům pro efektivní správu a řešení požadavků.</p>
+    <p>Umožňuje technikům snadno zakládat nové požadavky, sledovat jejich stav a vyřizovat problémy,</p>
+    <p>které mohou nastat v rámci práce. Tento nástroj zajišťuje organizaci práce a přehlednost termínů a priorit jednotlivých úkolů.</p>
+    <br>
+     <img id="logo3" src="{% static 'img/3.jpg' %}"  alt="logo3" width="120px">
+    <br>
+
+</div>
+<div class="about2">
+       <h2>Jak jsme došli k rozhodnutí!</h2>
+    <p>1. Nejprve musíš být zaregistrován.</p>
+        <p>Registrace provedeš přes odkaz v horní liště</p>
+    <p>2. Po přihlášení uvidíš seznam založených požadavků.</p>
+        <p>Zde také můžeš požadavek založit</p>
+    <p>3. Řešitelé můžou být pouze registrovaní uživatelé.</p>
+        <p> Přeji hezkou práci. :)</p>
+
+</div>
+{% endblock %}

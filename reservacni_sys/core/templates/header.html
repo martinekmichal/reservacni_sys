@@ -1,0 +1,34 @@
+{% load static %}
+<header>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <nav class="header_ul">
+        <ul style="display: flex; list-style: none; padding: 0;">
+            <li style="margin-right: 8px;"><a href="{% url 'home' %}">Domů</a></li>
+            <li style="margin-right: 8px;"><a href="{% url 'about' %}">O Helpdesku</a></li>
+            <li style="margin-right: 8px;"><a href="{% url 'register' %}">Registrace</a></li>
+            {% if user.is_authenticated %}
+                <li style="margin-right: 8px;"><a href="{% url 'reservacni_list' %}">Reservační List</a></li>
+                <li style="margin-right: 8px;"><a href="{% url 'profile' %}">Profil</a></li>
+                <li style="display: inline;">
+                    <form method="post" action="{% url 'logout' %}" style="display: inline;">
+                        {% csrf_token %}
+                        <a href="#" onclick="this.closest('form').submit(); return false;" style="color:blue; text-decoration:underline; cursor:pointer;">Logout</a>
+                    </form>
+                </li>
+            {% else %}
+                <li style="margin-right: 8px;"><a href="{% url 'login' %}">Přihlásit</a></li>
+            {% endif %}
+    </ul>
+</nav>
+    <div class="nav1" id="nav1">
+
+
+
+         Helpdesk
+
+        <img id="logo" src="{% static 'img/ok_1.png' %}"  alt="logo" width="80px">
+    </div>
+
+
+    <script type="text/javascript" src="{% static 'css/script_js.js' %}"></script>
+</header>
