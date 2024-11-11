@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c89a2bcb-8bdd-455e-a5f0-6654db4a59ec" name="Changes" comment="" />
+    <list default="true" id="c89a2bcb-8bdd-455e-a5f0-6654db4a59ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reservacni_sys/core/templates/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true"
